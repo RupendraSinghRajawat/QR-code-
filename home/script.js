@@ -44,3 +44,10 @@ let fileName = "QR CODE";
         saveAs(imgPath3, fileName);
         });
         
+
+        qrText.addEventListener("keyup", function(event) {
+            if (event.keyCode === 13) {
+              event.preventDefault();
+              generateQR();
+            }
+          });

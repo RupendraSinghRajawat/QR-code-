@@ -5,13 +5,33 @@
     box-sizing: border-box;
 }
 body{
-    background: #262a2f;
+    background: #080808;
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    flex-direction: column;
 }
+.logoContainer{
+    width: 100%;
+    display: flex;
+    align-items:centert;
+    justify-content: center;
+    height: 30%;
+}
+.logoContainer img{
+    height: 100%;
+}
+.mok{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 45%;
+}
+
 .container{
+    font-family: orbitron;
     width: 400px;
     padding: 25px 35px;
     background: #fff;
@@ -23,9 +43,10 @@ body{
     justify-content: center;
 }
 .container input{
+    font-family: Orbitron;
     width: 100%;
     height: 50px;
-    border: 1px solid #494eea;
+    border: 1px solid #24242b;
     outline: 0;
     padding: 10px;
     margin: 10px 0 20px;
@@ -33,9 +54,10 @@ body{
 }
 
 .container .Generate-btn{
+    font-family: orbitron;
     width: 100%;
     height: 50px;
-    background:#494eea;
+    background:#2e2e30;
     color: #fff;
     border: 0;
     outline: 0;
@@ -56,7 +78,7 @@ body{
     border-radius: 5px;
     overflow: hidden;
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.267);
+    background-color: rgba(37, 37, 37, 0.267);
     backdrop-filter: blur(10px);
     padding: 20px;
     display: none;
@@ -97,14 +119,14 @@ body{
 }
 .download-btn{
     padding: 10px 15px;
-    background-color: #494eea;
+    background-color:#2e2e30;
     color: rgb(255, 255, 255);
     border-radius: 10px;
     border: none;
     cursor: pointer;
 }
 .download-btn:hover{
-    background-color: #6c71ff;
+    background-color: #7c7c7e;
 }
 .error{
     animation: shake 0.1s linear 10;
@@ -125,5 +147,45 @@ body{
     }
     100%{
         transform: translateX(0);
+    }
+}
+footer{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.footerContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .footerContainer p{
+    color: rgb(176, 176, 176);
+    font-size: 1.3rem;
+    font-family: Orbitron;
+  }
+  .footerContainer a{
+    text-decoration: none;
+    color: #58585a;
+  }
+  .fa-copyright{
+    font-size: 1.3rem;
+    color: rgb(176, 176, 176);
+  }
+
+  @media screen and (max-width:500px) {
+    .container,.footerContainer {
+        width: 80%;
+    }
+    .footerContainer p{
+        font-size: 15px;
+        text-align: center;
+
     }
 }
