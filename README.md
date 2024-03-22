@@ -2,7 +2,7 @@
 <p align="justify">A QR CODE Generator Webpage using API</p>
 
 [![Repository Status](https://img.shields.io/badge/Repository%20Status-Maintained-dark%20green.svg)](https://github.com/RupendraSinghRajawat)
-[![Website Status](https://img.shields.io/badge/Website%20Status-Online-green)](https://RupendraSinghRajwat.github.io/)
+[![Website Status](https://img.shields.io/badge/Website%20Status-Online-green)](https://rupendrasingh.me/QR-code-/)
 [![Author](https://img.shields.io/badge/Author-RupendraSingh-purple.svg)](https://www.instagram.com/_rupendra_singh_rajawat_?igshid=YmMyMTA2MsY%3D)
 
  
